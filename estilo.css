@@ -1,54 +1,26 @@
-* {
-	padding: 0;
-	margin: 0;
-	font-family: century gothic;
-	text-align: center;
+*{
+    background-color:rgba(9, 144, 255, 0.699) ;
 }
 
-form {
-	padding: 50px 20px;
-	background-color: #ededed;
-	margin: calc(25% + 100px);
-	margin-top: 70px;
-	padding-top: 28px;
-	margin-bottom: 30px
+button{
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif   
+}
+a[href="index.php"]{
+    color: black;
+    background-color: white;
+    font-family: 'Segoe UI';
 }
 
-h1 {
-	text-align: center;
-	padding: 12px;
-	color: #444
+footer{
+   color: white;
+   position:absolute;
+   top: 98%;
+   bottom: 0%;
+   left: 0%;
+   right: 0%;
+    
 }
-
-input {
-	width: calc(100% - 20px);
-	padding: 9px;
-	margin: auto;
-	margin-top: 12px;
-	font-size: 16px
-}
-
-input[type='submit']{
-	background-color: #48e;
-	color: #fff;
-	width: calc(80% - 20px);
-	margin: 0 10%;
-	margin-top: 22px;
-	border: none;
-}
-
-
-.ok {
-	text-align: center;
-	width: 100%;
-	padding: 12px;
-	background-color: #1e6;
-	color: #fff
-}
-.bad {
-	text-align: center;
-	width: 100%;
-	padding: 12px;
-	background-color: #a22;
-	color: #fff
+p a[href="pagina de ddebate.html"]{
+    text-align: center;
 }
